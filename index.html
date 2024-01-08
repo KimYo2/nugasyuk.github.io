@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SimpleBlog - Danang Yoga andimas's Personal Blog</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="light-theme">
+    <!--
+    - #HEADER
+  -->
+
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="#">
+            <img
+              src="./images/logo-light.svg"
+              alt="SimpleBlog logo"
+              width="150"
+              class="logo-light"
+            />
+            <img
+              src="./images/logo-dark.svg"
+              alt="SimpleBlog logo"
+              width="150"
+              class="logo-dark"
+            />
+          </a>
+
+          <div class="btn-group">
+            <button class="theme-btn theme-btn-mobile light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+
+            <button class="nav-menu-btn">
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="flex-wrapper">
+            <ul class="desktop-nav">
+              <li>
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li>
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li>
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+            <button class="theme-btn theme-btn-desktop light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+          </div>
+
+          <div class="mobile-nav">
+            <button class="nav-close-btn">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="wrapper">
+              <p class="h3 nav-title">Main Menu</p>
+
+              <ul>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">About Me</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="h3 nav-title">Topics</p>
+
+              <ul>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Database</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Accessibility</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Web Performance</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--
+      - #HERO SECTION
+    -->
+
+      <div class="hero">
+        <div class="container">
+          <div class="left">
+            <h1 class="h1">
+              Hi, I'm <b>Danang&nbsp;Yoga</b>. <br />Seorang Mahasiswa
+            </h1>
+
+            <p class="h3">
+              Specialized in <abbr title="Accessibility">a11y</abbr>
+              and Core Web Vitals
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Contact Me</a>
+              <a href="#" class="btn btn-secondary">About Me</a>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="pattern-bg"></div>
+            <div class="img-box">
+              <img
+                src="./images/hero.png"
+                alt="Danang Yoga andimas"
+                class="hero-img"
+              />
+              <div class="shape shape-1"></div>
+              <div class="shape shape-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="container">
+          <!--
+          - BLOG SECTION
+        -->
+
+          <div class="blog">
+            <h2 class="h2">Latest Blog Post</h2>
+
+            <div class="blog-card-group">
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-1.png"
+                    alt="Perkenalan Tentang Saya"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a
+                      href="https://drive.google.com/file/d/1XVnp54Xn7RzBi16z_Dd9qXQ01DC3kcjH/view?usp=sharing"
+                      class="h3"
+                    >
+                      Perkenalan Tentang Saya
+                    </a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Saya Adalah Seorang Mahasiswa Yang Sedang Melaksanakan Ujian
+                    Akhir Semester
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-2.png"
+                    alt="Mempelajari Dasar-Dasar Sistem Informasi"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a
+                      href="https://docs.google.com/presentation/d/1wo7PbwXOJpZVxFzm5GGdf6UUznrVFirz/edit#slide=id.p1"
+                      class="h3"
+                      >Mempelajari Dasar-Dasar Sistem Informasi</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Di Materi Pertama Kali ini Kita Akan Mempelajari Tentang
+                    Dasar-Dasar Sistem Informasi dan Apa Yang diperlukan Untuk
+                    Memulai Sebuah Sistem
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT2M">2 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-3.png"
+                    alt="Perangkat Keras Komputer : Input & Output"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  >
+
+                  <h3>
+                    <a
+                      href="https://docs.google.com/presentation/d/1oWDvYqcIo6pu37XBWKbM8GleF9YbGX6-/edit#slide=id.p1"
+                      class="h3"
+                      >Perangkat Keras Komputer : Input & Output</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Materi kali ini Kita Akan Mempelajari Tentang Beberapa
+                    Perangkat keras output & input penyimpanan Dalam Sebuah
+                    Sistem
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-4.png"
+                    alt="Software Pendukung Sistem Informasi"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a
+                      href="https://docs.google.com/presentation/d/1RH-SM2RdyRpg6vmrO7NCj806u8Okv1k4/edit#slide=id.p1"
+                      class="h3"
+                      >Software Pendukung Sistem Informasi</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Di Pertemuan Ini Kita Akan Melihat bebetapa Software
+                    Pendukung Dalam sitem informasi
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-5.png"
+                    alt="Mengenal MS-word dan Cara Penggunaan Keyboard"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a
+                      href="https://docs.google.com/document/d/11BYHmNkHnxHSquf8nRTyKTjuLKwfWDGM/edit#heading=h.gjdgxs"
+                      class="h3"
+                      >Mengenal MS-word dan Cara Penggunaan Keyboard</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Materi kali ini Kita Akan Belajar Cara Mengetik 10 Jari Dan
+                    Basic MS-Word
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-6.png"
+                    alt="Mempelajari Excel bagi pemula"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a
+                      href="https://www.youtube.com/watch?v=RwDUzDmWDrM&list=PLMYrTRmHsk2cfC6RPrGLA-9AE-CzOh7lM&pp=gAQBiAQB"
+                      class="h3"
+                      >Mempelajari Excel bagi pemula</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Kali ini Kita akan Mempalejari Basic Penggunaan Excel
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-7.png"
+                    alt=" Belajar Membuat WebSite Mengunakan VCode Studio"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a
+                      href="https://www.youtube.com/watch?v=MCVkMmYL-aY"
+                      class="h3"
+                      >Belajar Membuat WebSite Mengunakan VCode Studio</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Di Pertemuan Kali Ini Kalian diharuskan Membuat WebSite
+                    Sederhana menggunakan VCode Studio
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT5M">5 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-8.png"
+                    alt="Content Management Sistem dan Wordpress"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a
+                      href="https://www.youtube.com/watch?v=MIg5XPve7Fs&list=PLMYrTRmHsk2ckn9CwSOIWovUj5CEjRaqc&pp=gAQBiAQB"
+                      class="h3"
+                      >Content Management Sistem dan Wordpress</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    di pertemuan ini Kalian diharuskan Mengerti Apa Itu Content
+                    Management Sistem (CMS). Dan Mencoba Membuat WebSite
+                    Menggunakan Wordpress .
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT5M">5 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-9.png"
+                    alt="Membuat Power Point"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a
+                      href="https://wepik.com/edit/9b085d71-f709-4f96-8cea-477bdd1d855c"
+                      class="h3"
+                      >Membuat Power Point</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Kalian Diharuskan Mampu mengoperasikan Power point. Dan
+                    membuat materi tayang yang menampilkan teks, gambar, suara,
+                    animasi dan video.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-10.png"
+                    alt="Praktek membuat dasra-dasar pengolhana data"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a
+                      href="https://docs.google.com/document/d/1UqXzpvYGGxtZKK2vwodnyf1nJDkrrU_O/edit#heading=h.gjdgxs"
+                      class="h3"
+                      >Praktek membuat dasra-dasar pengolhana data</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Mampu menyebutkan dan menjelaskan sistem basis data.2. Mampu
+                    menjelaskan DBMS3. Mampu membuat diagram alir sistem.4.
+                    Mahasiswa membuat tugas (tulisan) tentang dasar pengolahan
+                    data dan diupload di blog masing-masing.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-11.png"
+                    alt="Sistem Informasi Management"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a
+                      href="https://docs.google.com/presentation/d/1JHkjnI2OvHIsP6tx3QksDj2oBdifeahK/edit#slide=id.p1"
+                      class="h3"
+                      >Sistem Informasi Management</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Mampu menyebutkan dan menjelaskan konsep dasar sistem. Mampu
+                    menjelaskan siklus hidup sistem.Mampu mengalisis pendekatan
+                    (aturan bisnis) dalam pengembangan sistem informasi.
+                    Mahasiswa membuat tugas (tulisan) tentang dasar sistem
+                    informasi dan diupload di blog masing-masing.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-12.png"
+                    alt="Komunikasi Data dan Jaringan"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a
+                      href="https://www.slideshare.net/rakhkha/komunikasi-dan-jaringan-komputer-125422189"
+                      class="h3"
+                      >Komunikasi Data dan Jaringan</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Mampu menyebutkan dan menjelaskan dasar-dasar jaringan
+                    computer.Mampu menyebutkan dan menjelaskan dasar-dasar
+                    komunikasi data.Mampu menjelaskan dan menggambarkan
+                    transmisi data Mahasiswa membuat tugas (tulisan) tentang
+                    dasar jaringan computer dan komunikasi data dan diupload di
+                    blog masing-masing.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./images/blog-13.png"
+                    alt="hasil latihan dan prektek"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <h3>
+                    <a
+                      href="https://drive.google.com/drive/folders/1_swxusNFClpJN8fxlVW-Aezq_c9D9m9W?usp=drive_link"
+                      class="h3"
+                      >hasil latihan dan prektek</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">Kumpulan latihan dan hasil praktek.</p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./images/author.png"
+                        alt="Danang Yoga andimas"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Danang Yoga andimas</a>
+
+                      <p class="text-sm">
+                        <time datetime="2024-01-08">Jan 08, 2024</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn load-more">Load More</button>
+          </div>
+
+          <!--
+          - ASIDE
+        -->
+
+          <div class="aside">
+            <div class="contact">
+              <h2 class="h2">Let's Talk</h2>
+
+              <div class="wrapper">
+                <p>
+                  Jika ada Kritik dan Saran, Hubungi saya di Sosial Media di
+                  Bawah Ini Ya!!.
+                </p>
+
+                <ul class="social-link">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/danang.yogaa.12?mibextid=2JQ9oc"
+                      class="icon-box facebook"
+                    >
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://www.instagram.com/yo_an86?igsh=MzNlNGNkZWQ4Mg=="
+                      class="icon-box instagram"
+                    >
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://github.com/KimYo2" class="icon-box github">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="newsletter">
+              <h2 class="h2">Newsletter</h2>
+
+              <div class="wrapper">
+                <p>
+                  Subscribe to our newsletter to be among the first to keep up
+                  with the latest updates.
+                </p>
+
+                <form action="#">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    required
+                  />
+
+                  <button type="submit" class="btn btn-primary">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--
+    - #FOOTER
+  -->
+
+    <footer>
+      <div class="container">
+        <div class="wrapper">
+          <a href="#" class="footer-logo">
+            <img
+              src="./images/logo-light.svg"
+              alt="SimpleBlog Logo"
+              width="150"
+              class="logo-light"
+            />
+            <img
+              src="./images/logo-dark.svg"
+              alt="SimpleBlog Logo"
+              width="150"
+              class="logo-dark"
+            />
+          </a>
+
+          <p class="footer-text">
+            Learn about Web accessibility, Web performance, and Database
+            management.
+          </p>
+        </div>
+
+        <div class="wrapper">
+          <p class="footer-title">Quick Links</p>
+
+          <ul>
+            <li>
+              <a href="#" class="footer-link">Advertise with us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="wrapper">
+          <p class="footer-title">Legal Stuff</p>
+
+          <ul>
+            <li>
+              <a href="#" class="footer-link">Privacy Notice</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Cookie Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms Of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="copyright">&copy; Copyright 2024 <a href="#">SimpleBlog</a></p>
+    </footer>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
